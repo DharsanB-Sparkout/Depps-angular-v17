@@ -1,0 +1,60 @@
+#header {
+    width: 100%;
+    z-index: 2;
+    overflow: auto;   
+    transition: all 0.15s linear;
+}
+#header.active {
+    box-shadow: 0 0 10px #000;   
+    background-color: #FDF8F5 !important; 
+}
+
+#header.active .navigation{
+    padding-top:35px !important;
+    transition: padding-top  0.4s ease-in;
+}
+#header.active .nav-scroll{
+    margin-bottom: 35px;
+    transition: margin-bottom 0.4s ease-in;
+}
+
+.sticky-header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.img-fluid{
+    max-width:  100%;
+    height: auto;
+}
+.navbar{
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+.navigation{
+    padding-top: 70px !important;
+    padding-left: 94px !important;
+    z-index: 1;
+}
+.depps-header-logo{
+    width: 203px;
+    height: 53px;
+}
+.nav-item{
+    padding-right: 17px;
+    gap:60px;
+    
+}
+.navbar-toggler:focus {
+    outline: 4px solid #E09773 !important;
+    box-shadow: none ;
+}
+.nav-link{
+    font-size: 18px;
+    color:#000;
+    font-family: 'Poppins';
+    cursor: pointer;
+}
+.nav-link:hover{
+    color: #E09773;
+}

@@ -1,0 +1,87 @@
+.banner{
+    background-image: url(/assets/images/header-background.jpg);
+    width: auto;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position:  bottom center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.banner::before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url(/assets/images/background-white-shadow.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.de-pin-for-agriculture{
+    gap:23px;
+}
+h1{
+    color:#000;
+    font-size: 64px;
+    margin-bottom: 0px;
+    font-family: Inter;
+}
+
+.agriculture{
+    padding-left: 35px;
+    font-size: 64px;
+    font-weight: 500;
+    font-family: Inter;
+}
+.search-bar{
+    z-index: 2;
+}
+input{
+    background-color: transparent;
+}
+::placeholder{
+    color: rgba(3, 3, 3, 0.40);
+    font-size: 30px;
+    font-weight: 400px;
+    font-family: Inter;
+}
+input{
+    font-size: 30px;
+    border-radius: 10px;
+    border: 2px solid #1C1C1C;
+    padding-top: 21px;
+    padding-bottom: 22px;
+    padding-left: 50px;
+    padding-right: 320px;
+    background-image: url(/assets/images/icons/search-bar-icon.svg);
+    background-repeat: no-repeat;
+    background-position: 20px;
+    font-family: Inter;
+}
+input:focus{
+    outline: none;
+}
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+   display: none;
+}
+.help{
+    right: -53px;
+}
+.deeps-tooltip{
+    color: white;
+    font-size: 24px;
+    width: 28px;
+    height: 28px;
+    background-color: #000;
+    font-family: Inter;
+}
+.tooltip-inner {
+    font-size: 16px;
+}

@@ -1,0 +1,29 @@
+.mission{
+    background-color: #161616;
+    /* padding-top: 204px;
+    padding-bottom: 241px; */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mission-head{
+    color: #E09773;
+    font-family: Inter;
+    padding-bottom: 12px;
+    font-size: 20px;
+    line-height: normal;
+}
+.mission-ctn{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    line-height: normal;
+}
+.food-industry{
+    padding-bottom: 26px;
+    width: 800px;
+    font-size: 32px;
+    line-height: normal;
+
+}

@@ -1,0 +1,70 @@
+.footer{
+    background-color: rgba(22, 22, 22, 1);
+    padding-top: 49px;
+    padding-bottom: 56px;
+}
+.depps-footer-logo{
+    padding-top: 61px;
+}
+.depps-footer-icon{
+    width: 203px;
+    height: 53px;
+}
+.contact-us{
+    color: #FDF8F5;
+    font-family: Inter;
+    font-size: 20px;
+    margin-bottom: 0;
+    line-height: normal;
+}
+.address-and-details{
+    color: #FDF8F5;
+    font-family: Inter;
+    font-size: 15px;
+    margin-bottom: 0;
+    line-height: normal;
+}
+.contact-us-and-email{
+    padding-top: 102px;
+    padding-left: 8px;
+    padding-bottom: 38px;
+}
+.address-and-copyright{
+    padding-left: 8px;
+    gap: 19px;
+}
+.copyright{
+    border-right: 1px solid #FDF8F5;
+    padding-right: 6px;
+}
+.reserve{
+    padding-left: 6px;
+}
+
+.topup-btn{
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    background-color: #FDF8F5;
+    bottom:80px;
+    right: 105px;
+    z-index: 1;
+}
+.topup-btn:hover{
+    background-color:#E09773 ;
+}
+.topup-btn:hover .bi-arrow-up{
+    color:#FDF8F5;
+}
+.bi-arrow-up{
+    font-size: 27px;
+    color:#161616;
+}
+
+.to_top{
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.show{
+    opacity: 1;
+}

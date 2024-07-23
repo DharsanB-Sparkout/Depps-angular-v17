@@ -1,0 +1,47 @@
+.features{
+    background-color: #FDF8F5;
+    /* padding-top: 138px;
+    padding-bottom: 88px; */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.why{
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 19px;
+}
+.feature-head{
+    color: #000;
+    font-family: Inter;
+    font-size: 32px;
+    line-height: 24px;
+}
+.small-farmers{
+    line-height: 32px;
+}
+.feature-ctn{
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 29px;
+}
+.deeps-empower{
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 7px;
+}
+.Transparency{
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+}
+.advantage{
+padding-left: 50px;
+}

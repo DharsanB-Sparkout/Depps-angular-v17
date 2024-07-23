@@ -1,0 +1,44 @@
+.satellite{
+    background-color: rgba(22, 22, 22, 1);
+    /* padding-top: 100px;
+    padding-bottom: 124px; */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.join-the-movement{
+    color: #E09773;
+    font-family: Inter;
+    font-size: 20px;
+    padding-top: 67px;
+    padding-bottom: 42px;
+}
+.join-the-movement-ctn{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    padding-bottom: 149px;
+    padding-right: 50px;
+    line-height: normal;
+}
+.join-the-movement-btn{
+    width: 223px;
+    color: #161616;
+    font-family: Inter;
+    font-size: 20px;
+    padding-top: 12px;
+    padding-bottom: 11px;
+    border: none;
+    line-height: normal;
+}
+.join-the-movement-btn:hover{
+    color:#E09773;
+    background-color: #FFF;
+}
+.join-btn{
+    background: #E09773;
+}
+.join-and-connect-button{
+    gap:20px;
+}
